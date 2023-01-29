@@ -1,0 +1,313 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35%;
+    margin-right: 27%;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.3em;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.landing-title {
+    width: 100%;
+    height: fit-content;
+}
+
+.landing-title-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 100px;
+    width: 100%;
+    font-weight: 200;
+}
+
+/* Didn't want to use bootstrap. Do I regret it? Oh yeah. */
+
+@media only screen and (max-width: 600px) {
+    .landing-title-text {
+        font-size: 2.2em;
+        height: 5.5em;
+    }
+} 
+
+@media only screen and (min-width: 600px) {
+    .landing-title-text {
+        font-size: 2.8em;
+        height: 6.2em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .landing-title-text {
+        font-size: 4em;
+        height: 6.2em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .landing-title-text {
+        font-size: 5em;
+        height: 6.2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .landing-title-text {
+        font-size: 5.5em;
+        height: 6.4em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .landing-title-text {
+        font-size: 6em;
+        height: 7em;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .landing-title-text {
+        font-size: 7em;
+        height: 6.8em;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .landing-title-text {
+        font-size: 8em;
+        height: 6.8em;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .landing-title-text {
+        font-size: 9em;
+        height: 6.8em;
+    }
+}
+
+@media only screen and (min-width: 2200px) {
+    .landing-title-text {
+        font-size: 10em;
+        height: 6.8em;
+    }
+}
+
+@media only screen and (min-width: 2400px) {
+    .landing-title-text {
+        font-size: 10em;
+        height: 7.3em;
+    }
+}
+
+.landing-title-img {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height:inherit;
+}
+
+.show-container {
+    background-color: white;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-spacer {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 237, 240);
+    border: 1px solid gray;
+}
+
+.spacer {
+    padding-left: 5%;
+    font-size:2em;
+    margin: 3px;
+}
+
+.show-panel {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+    align-content: center;
+    width: 58%;
+    margin-top: 40px;
+}
+
+.show-img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25%;
+}
+
+.show-img {
+    height: 100%;
+}
+
+.show-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: l;
+    width: 55%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    font-size: 1.4em;
+    
+}
+
+h6 {
+    font-size: 1.6em;
+    margin: 0px;
+    font-weight: 100;
+} 
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+}
+
+button {
+    width: 200px;
+    height: 80px;
+    font-size: 2em;
+    color: white;
+    background-color: goldenrod;
+    border: 1px solid black;
+    
+}
+
+button:hover {
+    background-color: rgb(230, 174, 33);
+    cursor: pointer;
+}
+
+.divider {
+    width: 60%;
+    background-color: gray;
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sec-footer {
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.img-footer {
+    margin: 100px;
+    width: 500px;
+}
+
+.box-footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    width: 300px;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.ul-footer {
+    width: 100%;
+    padding-left: 0px;
+    height: 50%;
+}
+
+.fa-solid {
+    font-size: 30px;
+    color: goldenrod;
+}
